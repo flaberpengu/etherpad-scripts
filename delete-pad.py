@@ -82,7 +82,7 @@ def print_help(shortHelp):
         print(f"Run with {bcolors.OKBLUE}-h{bcolors.ENDC} or {bcolors.OKBLUE}--help{bcolors.ENDC} for more information")
     else:
         print('delete-pad.py -p <pad> [OPTIONAL: -t <api_token>]')
-        print(f"{bcolors.OKBLUE}-, --pad : {bcolors.ENDC}The name of the pad to delete")
+        print(f"{bcolors.OKBLUE}-p, --pad : {bcolors.ENDC}The name of the pad to delete")
         print(f"{bcolors.OKCYAN}[OPTIONAL]: {bcolors.ENDC}{bcolors.OKBLUE}-t, --token : {bcolors.ENDC}The Etherpad API token")
         print(f"If token is not passed as a parameter, it must be set in the .env file as {bcolors.UNDERLINE}TOKEN{bcolors.ENDC}. If it is both set in .env and passed as a parameter, the parameter takes priority")
         print(f"{bcolors.BOLD}The .env file must be set up with {bcolors.UNDERLINE}URL{bcolors.ENDC}{bcolors.BOLD} and {bcolors.UNDERLINE}API_VER{bcolors.ENDC}")
